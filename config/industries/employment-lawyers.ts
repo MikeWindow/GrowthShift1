@@ -1,0 +1,820 @@
+import type { IndustryData } from '@/types/industry';
+
+export const employmentLawyersData: IndustryData = {
+  slug: 'google-ads-for-employment-lawyers',
+  industry: 'Employment Lawyers',
+  title: 'AI Google Ads Builder for Employment Lawyers | Generate Employment Law Campaigns',
+  metaDescription:
+    'Build high-converting Google Ads campaigns for employment lawyers using AI. Generate keywords, responsive search ads, campaign settings, negative keywords, landing page recommendations and Google Ads optimization in minutes.',
+  h1: 'Google Ads for Employment Lawyers, Powered by AI Campaign Automation',
+  heroBadge: '100% AI-Powered Google Ads Automation',
+  heroSubtitle:
+    'Generate complete Google Ads Search campaigns for your employment law practice in minutes. Paste your website URL and let AI automatically generate campaign settings, keyword groups, responsive search ads, descriptions, extensions, negative keywords, landing page recommendations, and continuous campaign optimization-all designed to help you generate more qualified employment case leads.',
+
+  preview: {
+    business: 'Meridian Employment Law Group',
+    industry: 'Employment Law',
+    primaryService: 'Wrongful Termination',
+    serviceAreas: 'Seattle',
+    campaignName: 'Meridian Employment Law | Wrongful Termination | Seattle',
+    campaignGoal: 'Phone Calls',
+    campaignType: 'Search',
+    budget: '$95/day',
+    bidStrategy: 'Maximize Clicks',
+    keywordsGenerated: 54,
+    keywords: [
+      'employment lawyer',
+      'employment attorney',
+      'wrongful termination lawyer',
+      'workplace discrimination attorney',
+      'sexual harassment lawyer',
+      'wage and hour attorney',
+      'retaliation lawyer',
+      'employment law consultation',
+      'workplace harassment attorney',
+      'employee rights lawyer',
+    ],
+    negativeKeywords: ['Free', 'Forms', 'DIY', 'Pro Se', 'Records', 'Statistics', 'Definition'],
+    headlines: [
+      'Employment Lawyers in Seattle',
+      'Experienced Employment Attorneys',
+      'Wrongful Termination? Call Today',
+      'Protect Your Workplace Rights',
+      'Trusted Seattle Employment Firm Since 2011',
+      'Discrimination & Harassment Lawyers',
+    ],
+    descriptions: [
+      'Dedicated employment attorneys serving Seattle. Wrongful termination, discrimination, and harassment cases. Call now for a free consultation.',
+      'From wage disputes to retaliation claims, our Seattle employment lawyers fight for your rights. Free initial consultation. Call today.',
+    ],
+    landingScore: 93,
+  },
+
+  whyLabel: 'Why Employment Law',
+  whyTitle: 'Why Employment Lawyers Need AI Google Ads',
+  whyIntro:
+    'Employment law is one of the most competitive and emotionally charged verticals in legal Google Ads. Click costs for employment lawyer and wrongful termination keywords routinely run between $25 and $75 per click, and prospective clients are often in distress, searching for help after a firing, demotion, or workplace harassment incident. Intent ranges from research and information gathering to urgent "I need an employment lawyer now" searches following a termination or complaint, and you are bidding against both boutique employment firms and high-volume lead aggregators. DIY filers, free-form seekers, and people searching for employment law records or statistics waste budget if your negative keyword list is not tight, and most employment firms serve multiple counties that each need their own ad groups. AI Google Ads automation handles all of this at once-campaign structure, keyword groups, responsive search ads, negative keywords, and landing page recommendations-so you capture qualified case leads instead of burning budget on the wrong clicks.',
+  whyCards: [
+    {
+      icon: 'DollarSign',
+      title: 'High CPC Keywords',
+      description:
+        'Employment law keywords like "employment lawyer" and "wrongful termination attorney" are among the most expensive in legal search. AI groups keywords by intent so you bid efficiently and stop wasting budget on low-value clicks.',
+    },
+    {
+      icon: 'Briefcase',
+      title: 'Workplace-Driven Demand',
+      description:
+        'Employment searches spike after terminations, demotions, and harassment incidents. AI campaign optimization adjusts bids and ad schedules so you capture demand when prospective clients are actively searching for help.',
+    },
+    {
+      icon: 'Clock',
+      title: 'Urgent & Research Intent',
+      description:
+        'Employment intent spans from research to "I need a lawyer now." AI separates informational from high-intent searches so your budget flows to queries that actually produce consultations, not tire-kickers.',
+    },
+    {
+      icon: 'Scale',
+      title: 'High-Stakes Cases',
+      description:
+        'Employment cases involve livelihoods, careers, and reputations. AI prioritizes high-intent keywords, call extensions, and "Call Now" headlines so you capture serious clients before competitors do.',
+    },
+    {
+      icon: 'Users',
+      title: 'Multiple Claim Types',
+      description:
+        'Wrongful termination, discrimination, harassment, and wage disputes have different buyers and concerns. AI separates them into distinct ad groups so your messaging matches the searcher on every query.',
+    },
+    {
+      icon: 'Ban',
+      title: 'DIY & Free-Form Searches',
+      description:
+        'DIY filers, free-form seekers, and record searches waste employment ad budget fast. AI generates a negative keyword list that blocks these searches and keeps your spend on real case leads.',
+    },
+    {
+      icon: 'Phone',
+      title: 'After-Termination Urgency',
+      description:
+        'Employment leads come in urgently after a firing or complaint. AI sets ad schedules and call tracking so urgent calls are captured, tracked, and routed to intake staff or on-call attorneys.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'Multiple County Service Areas',
+      description:
+        'Most employment law firms serve several counties or cities. AI creates location-based ad groups with local headlines and landing pages so each service area gets relevant, high-converting ads.',
+    },
+  ],
+  whyInsight: 'High-intent employment keywords like "wrongful termination lawyer" convert better than generic "employment law information" searches.',
+
+  generatesIntro:
+    'Paste your employment law website URL and AI generates a complete Google Ads Search campaign in minutes-campaign settings, keyword groups, responsive search ads, descriptions, ad extensions, negative keywords, audience suggestions, landing page recommendations, and continuous campaign optimization. It also sets up conversion tracking and call tracking so every phone call and form fill is attributed, and surfaces quality score improvements that lower your CPC and raise your ad rank. You get a full campaign ready to import into Google Ads, with every component tuned for employment case lead generation.',
+  generatesCards: [
+    {
+      icon: 'Settings2',
+      title: 'Campaign Settings',
+      description:
+        'AI generates campaign name, goal, budget, bidding strategy, locations, languages, and ad schedule-configured for employment law search campaigns and ready to import into Google Ads.',
+    },
+    {
+      icon: 'Layers',
+      title: 'Keyword Groups',
+      description:
+        'Keywords are grouped by service and intent-wrongful termination, discrimination, harassment, wage disputes-so each ad group targets a specific employment service with relevant ads.',
+    },
+    {
+      icon: 'Type',
+      title: 'Responsive Search Ads',
+      description:
+        'AI writes 15 headlines and 4 descriptions per ad group, mixing service, location, and rights-protection angles so Google can assemble the best-performing combinations automatically.',
+    },
+    {
+      icon: 'FileText',
+      title: 'Descriptions',
+      description:
+        'Each ad group gets 4 descriptions with trust signals, benefits, and a strong call to action tuned for employment callers-free consultation, experienced, aggressive representation.',
+    },
+    {
+      icon: 'Link2',
+      title: 'Ad Extensions',
+      description:
+        'AI adds sitelinks, callouts, structured snippets, and call extensions so your employment ads take more space and drive more phone calls from the search results page.',
+    },
+    {
+      icon: 'Ban',
+      title: 'Negative Keywords',
+      description:
+        'AI builds a negative keyword list that blocks free, forms, DIY, pro se, records, and statistics searches so your employment budget goes to real case leads, not information seekers.',
+    },
+    {
+      icon: 'Users',
+      title: 'Audience Suggestions',
+      description:
+        'AI suggests audience segments-terminated employees, discrimination victims, wage dispute workers-so you can layer targeting on top of employment keywords for higher-quality leads.',
+    },
+    {
+      icon: 'LayoutTemplate',
+      title: 'Landing Page Recommendations',
+      description:
+        'AI recommends landing page structure, above-the-fold CTAs, click-to-call buttons, and rights-protection messaging so your employment landing pages convert ad clicks into consultations.',
+    },
+  ],
+
+  servicesLabel: 'Built For Employment Law',
+  servicesTitle: 'Built Specifically For Employment Lawyers',
+  servicesIntro:
+    'Every component is tuned for employment search behavior-urgent intent, workplace distress, wrongful termination versus discrimination concerns, and multiple county service areas. AI generates campaigns for the full range of employment services, from wrongful termination to wage disputes.',
+  services: [
+    {
+      icon: 'Briefcase',
+      label: 'Wrongful Termination',
+      desc: 'Wrongful termination campaigns targeting employees who have been illegally fired or laid off.',
+    },
+    {
+      icon: 'Users',
+      label: 'Workplace Discrimination',
+      desc: 'Workplace discrimination campaigns targeting employees facing discrimination based on protected characteristics.',
+    },
+    {
+      icon: 'Shield',
+      label: 'Sexual Harassment',
+      desc: 'Sexual harassment campaigns targeting employees experiencing workplace harassment or hostile environments.',
+    },
+    {
+      icon: 'DollarSign',
+      label: 'Wage & Hour Disputes',
+      desc: 'Wage and hour campaigns targeting employees facing unpaid wages, overtime violations, or misclassification.',
+    },
+    {
+      icon: 'RefreshCw',
+      label: 'Retaliation Claims',
+      desc: 'Retaliation campaigns targeting employees punished for whistleblowing, complaints, or protected activity.',
+    },
+    {
+      icon: 'Users',
+      label: 'Hostile Work Environment',
+      desc: 'Hostile work environment campaigns targeting employees facing severe workplace harassment or bullying.',
+    },
+    {
+      icon: 'Briefcase',
+      label: 'Severance Negotiation',
+      desc: 'Severance negotiation campaigns targeting employees seeking fair severance packages after termination.',
+    },
+    {
+      icon: 'FileSignature',
+      label: 'Employment Contracts',
+      desc: 'Employment contract campaigns targeting executives and workers seeking review or negotiation of contracts.',
+    },
+    {
+      icon: 'Shield',
+      label: 'Whistleblower Claims',
+      desc: 'Whistleblower campaigns targeting employees reporting illegal activity and seeking protection from retaliation.',
+    },
+    {
+      icon: 'Users',
+      label: 'FMLA & Leave Rights',
+      desc: 'FMLA and leave rights campaigns targeting employees denied medical or family leave they are entitled to.',
+    },
+    {
+      icon: 'Briefcase',
+      label: 'Disability Accommodation',
+      desc: 'Disability accommodation campaigns targeting employees denied reasonable accommodations for disabilities.',
+    },
+    {
+      icon: 'Users',
+      label: 'Pregnancy Discrimination',
+      desc: 'Pregnancy discrimination campaigns targeting employees facing bias due to pregnancy or maternity leave.',
+    },
+    {
+      icon: 'DollarSign',
+      label: 'Unpaid Overtime',
+      desc: 'Unpaid overtime campaigns targeting employees denied overtime pay they legally earned.',
+    },
+    {
+      icon: 'FileSignature',
+      label: 'Non-Compete Agreements',
+      desc: 'Non-compete agreement campaigns targeting employees seeking to challenge or negotiate restrictive covenants.',
+    },
+    {
+      icon: 'Scale',
+      label: 'Employment Law Consultation',
+      desc: 'Employment law consultation campaigns targeting workers seeking legal advice about their workplace rights.',
+    },
+  ],
+
+  keywordsLabel: 'Keyword Strategy',
+  keywordsTitle: 'Keywords Generated',
+  keywordsIntro:
+    'AI uses a phrase match strategy to build your employment campaign structure, balancing reach and relevance across every ad group. The campaign builder organizes keywords into tight keyword groups by service and intent, so your campaign setup targets the right searches without over-broad matching. Each ad group gets its own keyword set, negatives, and responsive search ads-ready to import into Google Ads.',
+  keywordsCards: [
+    {
+      icon: 'Layers',
+      title: 'Employment Google Ads Campaign Structure',
+      description:
+        'AI organizes your campaign into ad groups by service-wrongful termination, discrimination, harassment, wage disputes-so each keyword group targets a specific employment intent.',
+    },
+    {
+      icon: 'Filter',
+      title: 'Employment Phrase Match Keywords',
+      description:
+        'Phrase match keywords like "employment lawyer" capture relevant variations while filtering unrelated searches, giving employment campaigns the best balance of reach and lead quality.',
+    },
+    {
+      icon: 'Target',
+      title: 'Employment Exact Match Keywords',
+      description:
+        'Exact match keywords protect your highest-converting employment terms-like "wrongful termination attorney"-with precise bidding for top placement on your most valuable searches.',
+    },
+    {
+      icon: 'Users',
+      title: 'Discrimination Intent Targeting',
+      description:
+        'AI separates discrimination keywords from general employment so your ads and landing pages match the searcher, whether it is a discrimination victim or a terminated employee.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'Location Modifiers',
+      description:
+        'Keywords are built with location modifiers-"employment lawyer in Seattle", "wrongful termination attorney near me"-so each service area gets relevant ads and local headlines.',
+    },
+    {
+      icon: 'Scale',
+      title: 'Service Modifiers',
+      description:
+        'AI adds service modifiers like "wrongful termination", "discrimination", "harassment", and "wage dispute" to keywords so your ads match specific employment case types and intent levels.',
+    },
+    {
+      icon: 'Star',
+      title: 'Branded Terms',
+      description:
+        'AI includes branded keywords for your employment firm name so you own your brand search, protect against competitors, and capture high-intent direct searches.',
+    },
+    {
+      icon: 'Ban',
+      title: 'Employment Negative Keywords',
+      description:
+        'AI generates a negative keyword list-free, forms, DIY, pro se, records, statistics-so your budget stays on real case leads and not on information seekers.',
+    },
+    {
+      icon: 'GitBranch',
+      title: 'Employment Keyword Groups',
+      description:
+        'Keywords are grouped by service and intent into ad groups, each with its own headlines, descriptions, and landing pages for higher relevance and quality score.',
+    },
+  ],
+  keywordsInsight: 'Phrase Match generally produces the best lead quality for employment law firms.',
+
+  settingsLabel: 'Campaign Settings',
+  settingsTitle: 'Google Ads Campaign Settings',
+  settingsIntro:
+    'AI generates every campaign setting for your employment law search campaign-goal, type, network, locations, languages, budget, bidding, schedule, extensions, and tracking. Each setting is configured for employment case lead generation and ready to import into Google Ads Editor or apply directly in your account.',
+  settingsCards: [
+    {
+      icon: 'Tag',
+      title: 'Campaign Name',
+      description:
+        'AI names your campaign by business, service, and location-like "Meridian Employment Law | Wrongful Termination | Seattle"-so you can manage multiple campaigns and service areas cleanly.',
+    },
+    {
+      icon: 'Target',
+      title: 'Campaign Goal',
+      description:
+        'AI sets the campaign goal to Phone Calls or Lead Form Submissions based on your employment service, prioritizing calls for urgent termination cases and forms for consultation requests.',
+    },
+    {
+      icon: 'Search',
+      title: 'Search Campaign',
+      description:
+        'AI configures a Search campaign type so your employment ads appear on Google search results when employees search for wrongful termination and discrimination services.',
+    },
+    {
+      icon: 'Globe',
+      title: 'Google Search Network',
+      description:
+        'AI enables the Google search network and disables display partners so your employment ads only appear on high-intent search results, not on irrelevant display placements.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'Locations',
+      description:
+        'AI targets your service areas by city, county, or radius so your employment ads only show to employees you can actually represent, avoiding wasted spend.',
+    },
+    {
+      icon: 'Globe',
+      title: 'Languages',
+      description:
+        'AI sets campaign languages to match your service area-English, Spanish, or both-so your employment ads reach every potential client in your market.',
+    },
+    {
+      icon: 'DollarSign',
+      title: 'Daily Budget',
+      description:
+        'AI recommends a daily budget based on your employment CPC and service area, balancing spend across practice areas so you stay competitive without overspending.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'Bidding Strategy',
+      description:
+        'AI starts with Maximize Clicks to gather data, then switches to Maximize Conversions or Target CPA once you have enough employment call and form data for automated bidding.',
+    },
+    {
+      icon: 'Clock',
+      title: 'Ad Schedule',
+      description:
+        'AI sets an ad schedule around your intake hours and after-hours demand, boosting bids during peak employment search times and evening windows so you capture urgent calls.',
+    },
+    {
+      icon: 'Phone',
+      title: 'Call Reporting & Call Extensions',
+      description:
+        'AI enables call reporting and call extensions so your employment ads show a clickable phone number and every call is tracked back to the keyword and ad that drove it.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'Location Extensions',
+      description:
+        'AI links your Google Business Profile for location extensions so your employment ads show your address, hours, and distance-driving more local clicks and trust.',
+    },
+    {
+      icon: 'Target',
+      title: 'Conversion Tracking',
+      description:
+        'AI sets up conversion tracking for calls, form fills, and consultation bookings so every employment lead is attributed and your bidding optimizes toward real cases.',
+    },
+    {
+      icon: 'Filter',
+      title: 'Phrase Match Strategy',
+      description:
+        'AI applies a phrase match strategy across your employment keyword groups to balance reach and relevance, capturing service variations while filtering unrelated searches.',
+    },
+    {
+      icon: 'Ban',
+      title: 'Negative Keywords',
+      description:
+        'AI loads a negative keyword list-free, forms, DIY, pro se, records, statistics-at the campaign and ad group level so your employment budget stays on real case leads.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'Quality Score',
+      description:
+        'AI aligns keywords, ad copy, and landing pages to raise quality score, lowering your employment CPC and improving ad rank so you pay less for better placement.',
+    },
+    {
+      icon: 'RefreshCw',
+      title: 'Campaign Optimization & Management',
+      description:
+        'AI continuously optimizes your employment campaign-search term reports, bid adjustments, negative expansion, and ad testing-so performance improves over time.',
+    },
+    {
+      icon: 'Bot',
+      title: 'AI Recommendations',
+      description:
+        'AI surfaces ongoing recommendations for bids, budgets, negatives, and ad copy based on your employment campaign data so you always know the next optimization to make.',
+    },
+  ],
+  settingsInsight:
+    'Start with Maximize Clicks to gather conversion data, then switch to Maximize Conversions or Target CPA once your employment campaign has enough call and form data for automated bidding.',
+
+  headlinesLabel: 'Ad Headlines',
+  headlinesTitle: 'Google Ads Headlines Generated',
+  headlinesIntro:
+    'AI writes 15 headlines per ad group, mixing service, location, rights-protection, and trust angles so Google can test and assemble the highest-performing combinations. Every headline is tuned for employment search intent and local conversion.',
+  headlinesCards: [
+    {
+      icon: 'Type',
+      title: '15 Headlines Per Ad Group',
+      description:
+        'AI generates 15 headlines per employment ad group so Google Responsive Search Ads can test combinations and find the best-performing mix for each service and location.',
+    },
+    {
+      icon: 'Sparkles',
+      title: 'Keyword Insertion & Dynamic Headlines',
+      description:
+        'AI uses keyword insertion and dynamic headlines so your employment ads match the searcher\'s query-like "Employment Lawyer in Seattle"-boosting relevance and click-through rate.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'High Quality Score',
+      description:
+        'Headlines match keywords and landing pages so your employment ads earn a high quality score, lowering CPC and improving ad rank for the same budget.',
+    },
+    {
+      icon: 'MapPin',
+      title: 'Location Headlines',
+      description:
+        'AI writes location headlines like "Employment Lawyers in Seattle" and "Seattle Wrongful Termination Attorneys" so your ads match local searches and outperform generic headlines in your market.',
+    },
+    {
+      icon: 'Briefcase',
+      title: 'Service Headlines',
+      description:
+        'AI writes service-specific headlines-"Wrongful Termination Lawyer", "Discrimination Attorney", "Wage Dispute Lawyer"-so each ad group matches the exact employment service the searcher needs.',
+    },
+    {
+      icon: 'Shield',
+      title: 'Rights Protection Headlines',
+      description:
+        'AI writes rights-protection headlines like "Protect Your Workplace Rights" and "Fight Wrongful Termination" to reassure prospective clients worried about their jobs and careers.',
+    },
+    {
+      icon: 'Siren',
+      title: 'Urgent Employment Headlines',
+      description:
+        'AI writes urgent headlines like "Wrongful Termination? Call Today" and "Employment Law Help Available Now" to capture high-intent searches ready to hire counsel.',
+    },
+    {
+      icon: 'Users',
+      title: 'Discrimination Headlines',
+      description:
+        'AI writes discrimination headlines like "Workplace Discrimination Lawyers" and "Fight Discrimination at Work" to target employees facing bias based on protected characteristics.',
+    },
+    {
+      icon: 'DollarSign',
+      title: 'Wage Dispute Headlines',
+      description:
+        'AI writes wage dispute headlines like "Unpaid Overtime Lawyers" and "Wage and Hour Attorneys" to target employees facing unpaid wages or overtime violations.',
+    },
+    {
+      icon: 'TestTube2',
+      title: 'Headline Testing',
+      description:
+        'AI structures headlines for continuous testing so low-performing employment headlines are swapped out and high performers are doubled down on over time.',
+    },
+  ],
+  headlinesInsight:
+    'Location headlines like "Employment Lawyer in Seattle" consistently outperform generic headlines in local employment markets.',
+
+  descriptionsLabel: 'Ad Copy',
+  descriptionsTitle: 'Descriptions Generated',
+  descriptionsIntro:
+    'AI writes 4 descriptions per ad group with trust signals, benefits, and a strong call to action. Each description is tuned for employment callers-free consultation, experienced, aggressive representation-so your ads convert clicks into phone calls.',
+  descriptionsCards: [
+    {
+      icon: 'Type',
+      title: '4 Descriptions Per Ad Group',
+      description:
+        'AI generates 4 descriptions per employment ad group so Responsive Search Ads can rotate combinations and find the highest-converting copy for each service.',
+    },
+    {
+      icon: 'ShieldCheck',
+      title: 'Trust Signals',
+      description:
+        'AI includes trust signals-experienced, aggressive, free consultation, years in practice-so prospective clients feel confident calling your employment firm.',
+    },
+    {
+      icon: 'Award',
+      title: 'Benefits First',
+      description:
+        'AI leads with benefits-free consultation, protect your rights, proven results-so your employment descriptions answer the searcher\'s need before the pitch.',
+    },
+    {
+      icon: 'Phone',
+      title: 'Strong Call To Action',
+      description:
+        'AI ends every description with a clear CTA-"Call now", "Schedule a free consultation today"-so employment searchers know exactly what to do next and convert at a higher rate.',
+    },
+    {
+      icon: 'Briefcase',
+      title: 'Wrongful Termination Descriptions',
+      description:
+        'AI writes wrongful termination descriptions focused on fighting illegal firings, recovering lost wages, and protecting careers so terminated employees convert into consultations.',
+    },
+    {
+      icon: 'Users',
+      title: 'Discrimination Descriptions',
+      description:
+        'AI writes discrimination descriptions focused on fighting bias, protecting rights, and holding employers accountable so discrimination victims convert into consultations.',
+    },
+    {
+      icon: 'Shield',
+      title: 'Harassment Descriptions',
+      description:
+        'AI writes harassment descriptions focused on stopping harassment, safe workplaces, and legal protection so harassment victims convert into consultations.',
+    },
+    {
+      icon: 'DollarSign',
+      title: 'Wage Dispute Descriptions',
+      description:
+        'AI writes wage dispute descriptions focused on recovering unpaid wages, overtime, and fair compensation so employees facing wage violations convert into consultations.',
+    },
+  ],
+  descriptionsInsight:
+    'Free consultation offers in descriptions significantly increase call volume for employment services-employees in distress are hesitant to pay upfront for a consultation.',
+
+  landingPageLabel: 'Landing Pages',
+  landingPageTitle: 'Landing Page Recommendations',
+  landingPageIntro:
+    'AI recommends landing page structure, above-the-fold CTAs, click-to-call buttons, rights-protection messaging, and lead form placement so your employment landing pages convert ad clicks into consultations. Every recommendation is tuned for employment search behavior and mobile-first prospective clients.',
+  landingPageCards: [
+    {
+      icon: 'LayoutTemplate',
+      title: 'Employment Landing Page Template',
+      description:
+        'AI recommends a proven employment landing page template-headline, trust signals, service list, click-to-call, and testimonials-so you can launch high-converting pages fast.',
+    },
+    {
+      icon: 'FileText',
+      title: 'Employment Landing Page Examples',
+      description:
+        'AI references high-converting employment landing page examples so you can model structure, copy, and CTAs from pages that already turn clicks into consultations.',
+    },
+    {
+      icon: 'TrendingUp',
+      title: 'High Converting Employment Landing Page',
+      description:
+        'AI recommends the elements that make a high converting employment landing page-clear headline, single CTA, trust badges, and click-to-call-so more visitors become leads.',
+    },
+    {
+      icon: 'Globe',
+      title: 'Employment Website Landing Page',
+      description:
+        'AI maps your existing employment website pages to ad groups so each keyword group sends traffic to the most relevant landing page instead of a generic homepage.',
+    },
+    {
+      icon: 'LayoutTemplate',
+      title: 'Employment Landing Page Builder & Design',
+      description:
+        'AI recommends builder-friendly layouts and design patterns so your employment landing pages load fast, match your brand, and convert on both mobile and desktop.',
+    },
+    {
+      icon: 'ArrowUpToLine',
+      title: 'Above The Fold CTA',
+      description:
+        'AI places a click-to-call CTA above the fold so mobile employment searchers can call your firm without scrolling, capturing urgent leads in seconds.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'Landing Page Speed',
+      description:
+        'AI flags slow images, scripts, and redirects that hurt your employment landing page speed, since slow pages lose mobile visitors and lower quality score.',
+    },
+    {
+      icon: 'Phone',
+      title: 'Click To Call & Call Tracking',
+      description:
+        'AI adds click-to-call buttons and call tracking so every employment landing page call is attributed to the keyword and ad that drove it, closing the loop on ROI.',
+    },
+    {
+      icon: 'FormInput',
+      title: 'Lead Forms',
+      description:
+        'AI recommends short, high-converting lead forms for free consultation requests so employment visitors can reach out without calling, capturing after-hours leads.',
+    },
+  ],
+  landingPageInsight:
+    'Landing page speed is critical for employment law-mobile visitors in distress after a termination abandon pages that take more than a few seconds to load, so fast pages capture more calls.',
+
+  comparisonTitle: 'Why GrowthShift Instead of a Traditional Employment Law Marketing Agency',
+  comparisonIntro:
+    'Most employment law marketing agencies charge monthly retainers, take weeks to launch campaigns, and manage dozens of clients with the same playbook. GrowthShift generates a complete, employment-specific Google Ads campaign in minutes-campaign settings, keyword groups, responsive search ads, descriptions, extensions, negative keywords, landing page recommendations, and ongoing optimization-for a fraction of the cost and without the long onboarding.',
+  comparison: [
+    {
+      icon: 'Bot',
+      title: 'GrowthShift',
+      points: [
+        'Generates a complete employment Google Ads campaign in minutes from your website URL',
+        'Flat, transparent pricing with no long-term agency contracts or retainers',
+        'Employment-specific keyword groups, negatives, and responsive search ads out of the box',
+        'Continuous AI optimization-search terms, bids, negatives, and ad testing included',
+        'Full control of your Google Ads account, campaigns, and billing at all times',
+      ],
+    },
+    {
+      icon: 'Briefcase',
+      title: 'Traditional Employment Law Agency',
+      points: [
+        'Weeks of onboarding, calls, and setup before your employment campaign goes live',
+        'High monthly retainers plus a percentage of ad spend, often with long contracts',
+        'Generic agency templates that ignore employment-specific intent and workplace triggers',
+        'Manual optimization with limited reporting and slow response to urgent demand',
+        'Account and assets often owned by the agency, making it hard to leave',
+      ],
+    },
+  ],
+
+  optimizationLabel: 'Optimization',
+  optimizationTitle: 'Campaign Optimization',
+  optimizationIntro:
+    'AI continuously optimizes your employment Google Ads campaign so performance improves over time. From search term reports to bid adjustments, negative keyword expansion, ad testing, and landing page improvements, every optimization is tuned for employment case lead generation.',
+  optimizationCards: [
+    {
+      icon: 'Search',
+      title: 'Search Term Reports',
+      description:
+        'AI reviews search term reports weekly to find wasted employment spend and new converting queries, adding negatives and expanding keywords based on real search data.',
+    },
+    {
+      icon: 'Ban',
+      title: 'Negative Keyword Expansion',
+      description:
+        'AI continuously expands your negative keyword list-blocking new free, DIY, and records searches-so your employment budget stays on real case leads as new queries appear.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'Bid Optimization',
+      description:
+        'AI adjusts bids by service, location, device, and time of day so your employment budget flows to the keywords and audiences that produce the most calls and form fills.',
+    },
+    {
+      icon: 'DollarSign',
+      title: 'Budget Optimization',
+      description:
+        'AI reallocates budget across employment campaigns and ad groups based on performance, pushing spend toward high-converting services like wrongful termination and discrimination.',
+    },
+    {
+      icon: 'Gauge',
+      title: 'Quality Score Optimization',
+      description:
+        'AI aligns keywords, ad copy, and landing pages to raise quality score, lowering your employment CPC and improving ad rank so you get more clicks for the same budget.',
+    },
+    {
+      icon: 'Type',
+      title: 'Headline Testing',
+      description:
+        'AI tests employment headlines continuously, swapping low performers and doubling down on winners like "Employment Lawyer in Seattle" to improve click-through rate over time.',
+    },
+    {
+      icon: 'LayoutTemplate',
+      title: 'Landing Page Testing',
+      description:
+        'AI tests employment landing page variants-headlines, CTAs, and layouts-to find the combinations that convert the most ad clicks into consultations.',
+    },
+    {
+      icon: 'Target',
+      title: 'Conversion Rate Optimization',
+      description:
+        'AI optimizes forms, click-to-call buttons, and page flow so more employment visitors convert into leads, raising your campaign ROI without increasing spend.',
+    },
+    {
+      icon: 'Phone',
+      title: 'Call Tracking',
+      description:
+        'AI attributes every employment call to the keyword and ad that drove it, so you know exactly which services and locations produce the most cases and can bid accordingly.',
+    },
+    {
+      icon: 'Activity',
+      title: 'Performance Monitoring',
+      description:
+        'AI monitors employment campaign performance daily-CPC, CTR, conversion rate, and cost per lead-so issues are caught early and opportunities are acted on fast.',
+    },
+    {
+      icon: 'Bot',
+      title: 'AI Recommendations',
+      description:
+        'AI surfaces prioritized recommendations for bids, budgets, negatives, and ad copy based on your employment data so you always know the next optimization to make.',
+    },
+    {
+      icon: 'Clock',
+      title: 'After-Hours Optimization',
+      description:
+        'AI adjusts bids and ad schedules around evening and weekend employment search peaks so you capture urgent leads when prospective clients are most active after terminations.',
+    },
+  ],
+  optimizationInsight:
+    'Search term reports are the single most valuable optimization tool for employment campaigns-they reveal exactly which queries are wasting budget and which new queries deserve their own ad groups.',
+
+  faqIntro:
+    'Everything employment lawyers need to know about Google Ads, PPC, and AI campaign automation-from keyword strategy and negative keywords to landing pages, call tracking, and campaign optimization. These answers cover the most common questions employment law firm owners ask before launching or improving their Google Ads campaigns.',
+  faqs: [
+    {
+      q: 'How does AI Google Ads for employment lawyers work?',
+      a: 'Paste your employment law website URL and AI generates a complete Google Ads Search campaign in minutes-campaign settings, keyword groups, responsive search ads, descriptions, extensions, negative keywords, and landing page recommendations. You review, import to Google Ads, and launch. AI then continuously optimizes bids, negatives, and ad copy based on performance so your employment campaign improves over time without manual effort.',
+    },
+    {
+      q: 'What makes Google Ads for employment lawyers different from other industries?',
+      a: 'Employment law has high CPCs, workplace-driven demand, urgent intent mixed with research intent, and a split between wrongful termination, discrimination, and wage dispute cases. AI Google Ads automation handles all of this-separating practice areas, scheduling around after-hours search peaks, and prioritizing high-intent keywords with call extensions so you capture serious clients instead of information seekers.',
+    },
+    {
+      q: 'How much does employment lawyer PPC cost on Google Ads?',
+      a: 'Employment lawyer PPC keywords typically run $25 to $75 per click depending on service and market, with wrongful termination and discrimination among the most expensive. AI campaign optimization lowers your effective cost per lead by grouping keywords by intent, building tight negative lists, and improving quality score so you pay less per click over time while generating more qualified consultations.',
+    },
+    {
+      q: 'Can AI automate employment lawyer Google Ads management end to end?',
+      a: 'Yes. Google Ads automation for employment lawyers covers campaign setup, keyword generation, responsive search ads, extensions, negative keywords, bidding, ad scheduling, and ongoing optimization. AI handles the repetitive work-search term reports, bid adjustments, negative expansion, and ad testing-so you can focus on representing clients and growing your practice instead of managing campaigns daily.',
+    },
+    {
+      q: 'What employment lawyer advertising ideas work best on Google Ads?',
+      a: 'The highest-converting employment lawyer advertising ideas target urgent intent with call extensions, separate wrongful termination and discrimination ad groups, use location headlines like "Employment Lawyer in Seattle," and send traffic to fast landing pages with click-to-call and free consultation messaging. AI generates all of this automatically from your website URL, tuned for employment search behavior and workplace triggers.',
+    },
+    {
+      q: 'Is AI PPC management for employment lawyers better than a manual setup?',
+      a: 'AI PPC management for employment lawyers is faster, more consistent, and cheaper than manual setup. AI generates keyword groups, negatives, and responsive search ads in minutes, then optimizes continuously based on real search data-something most employment law firm owners do not have time to do manually. You get a complete campaign without the weeks of setup a manual build requires.',
+    },
+    {
+      q: 'What does an employment lawyer marketing agency typically charge?',
+      a: 'Most employment lawyer marketing agencies charge $1,500 to $5,000 per month plus a percentage of ad spend, with long contracts and slow onboarding. AI Google Ads automation generates a complete employment campaign for a flat fee in minutes, with no retainers and full control of your account. You get agency-quality campaign structure without the agency overhead or long-term commitment.',
+    },
+    {
+      q: 'How is AI Google Ads for employment lawyers different from a marketing company?',
+      a: 'An employment lawyer marketing company manages campaigns manually with generic templates and monthly reporting. AI Google Ads automation generates a complete, employment-specific campaign instantly-keyword groups, negatives, responsive search ads, and landing page recommendations-and optimizes continuously without the agency overhead, so you launch faster and pay less for the same or better results.',
+    },
+    {
+      q: 'What should employment lawyer marketing services include?',
+      a: 'Employment lawyer marketing services should include keyword strategy, responsive search ads, negative keywords, call tracking, landing page recommendations, conversion tracking, and continuous optimization. AI Google Ads automation delivers all of this from your website URL, tuned specifically for employment search behavior, workplace intent, and local competition so you generate qualified case leads.',
+    },
+    {
+      q: 'How does employment lawyer lead generation work with Google Ads?',
+      a: 'Employment lawyer lead generation on Google Ads works by bidding on high-intent service keywords like "employment lawyer" and "wrongful termination attorney," driving clicks to a fast landing page with click-to-call and a free consultation form, and tracking every call and form fill back to the keyword. AI generates the full pipeline-keywords, ads, negatives, landing pages, and tracking-in minutes.',
+    },
+    {
+      q: 'Is there employment lawyer lead generation software that builds Google Ads campaigns?',
+      a: 'Yes. AI Google Ads automation acts as employment lawyer lead generation software by generating complete campaigns-keywords, responsive search ads, campaign settings, negatives, and landing page recommendations-from your website URL, so you can launch lead generation campaigns without building them manually or hiring an expensive agency.',
+    },
+    {
+      q: 'How does an employment lawyer campaign builder structure ad groups?',
+      a: 'An employment lawyer campaign builder structures ad groups by service and intent-wrongful termination, discrimination, harassment, wage disputes, retaliation-so each ad group targets a specific employment service with its own keywords, headlines, descriptions, and landing page. AI generates this structure automatically from your website URL so your campaign is organized for maximum relevance.',
+    },
+    {
+      q: 'What does employment lawyer campaign optimization include?',
+      a: 'Employment lawyer campaign optimization includes search term reports, negative keyword expansion, bid and budget adjustments, quality score improvements, headline and landing page testing, conversion rate optimization, call tracking, and after-hours bid adjustments. AI handles all of this continuously based on your campaign data so performance improves over time.',
+    },
+    {
+      q: 'What employment lawyer campaign settings should I use?',
+      a: 'Employment lawyer campaign settings should include a Search campaign type, phone call or lead form goal, your service area locations, English and Spanish if applicable, a daily budget based on CPC, Maximize Clicks bidding to start, an ad schedule around intake and after-hours demand, call extensions, location extensions, and conversion tracking. AI generates all of these settings automatically.',
+    },
+    {
+      q: 'What is the best employment lawyer keyword strategy?',
+      a: 'The best employment lawyer keyword strategy uses phrase match as the foundation, exact match for top converters, location and service modifiers, branded terms, and a tight negative keyword list. AI builds this strategy across ad groups so each service targets the right searches without wasting budget on free-form seekers, DIY filers, or record searches.',
+    },
+    {
+      q: 'How should employment lawyer keyword groups be organized?',
+      a: 'Employment lawyer keyword groups should be organized by service and intent-wrongful termination, discrimination, harassment, wage disputes, retaliation-each with its own keywords, headlines, descriptions, and landing page. AI generates these keyword groups automatically from your website URL so your campaign structure is clean and relevant.',
+    },
+    {
+      q: 'What are employment lawyer search campaigns and how do they work?',
+      a: 'Employment lawyer search campaigns are Google Ads Search campaigns that show text ads when employees search for wrongful termination and discrimination services. AI generates the full campaign-keywords, responsive search ads, settings, negatives, and landing page recommendations-so you capture high-intent searches and convert them into consultations and retained cases.',
+    },
+    {
+      q: 'What makes employment lawyer search ads convert?',
+      a: 'Employment lawyer search ads convert when headlines match the search query, descriptions include trust signals and a strong call to action, call extensions are enabled, and the landing page loads fast with click-to-call and free consultation messaging. AI writes all of this-tuned for urgent, termination, and discrimination intent-so your ads capture serious clients.',
+    },
+    {
+      q: 'What should an employment lawyer landing page include?',
+      a: 'An employment lawyer landing page should include a clear service headline, trust signals like years of experience and free consultation, a click-to-call button above the fold, a service list, testimonials, rights-protection messaging, and a short lead form for consultation requests. AI recommends this structure and maps each ad group to the most relevant page.',
+    },
+    {
+      q: 'Where can I find an employment lawyer landing page template?',
+      a: 'AI recommends a proven employment lawyer landing page template-headline, trust signals, service list, click-to-call, testimonials, and lead form-that you can build in any page builder. The template is tuned for employment conversion and works for wrongful termination, discrimination, harassment, and wage dispute services.',
+    },
+    {
+      q: 'What makes a high converting employment lawyer landing page?',
+      a: 'A high converting employment lawyer landing page loads fast, has a single clear CTA, shows trust badges and free consultation offers, includes click-to-call for mobile, and matches the ad\'s service and location. AI recommends all of these elements and tests variants to find the highest-converting combination for your practice.',
+    },
+  ],
+
+  relatedTitle: 'Explore other industries',
+  relatedIntro: 'GrowthShift supports AI Google ads builders for every legal and local service vertical.',
+  related: [
+    { label: 'Divorce Lawyers', href: '/industries/google-ads-for-divorce-lawyers', desc: 'AI Google Ads campaigns for divorce attorneys and family law practices.' },
+    { label: 'Family Lawyers', href: '/industries/google-ads-for-family-lawyers', desc: 'AI Google Ads campaigns for family law practices and custody attorneys.' },
+    { label: 'Bankruptcy Lawyers', href: '/industries/google-ads-for-bankruptcy-lawyers', desc: 'AI Google Ads campaigns for bankruptcy attorneys and debt relief firms.' },
+    { label: 'Estate Planning Lawyers', href: '/industries/google-ads-for-estate-planning-lawyers', desc: 'AI Google Ads campaigns for estate planning and trust attorneys.' },
+    { label: 'Immigration Lawyers', href: '/industries/google-ads-for-immigration-lawyers', desc: 'AI Google Ads campaigns for immigration attorneys and visa services.' },
+    { label: 'Workers Compensation Lawyers', href: '/industries/google-ads-for-workers-compensation-lawyers', desc: 'AI Google Ads campaigns for workers compensation and injury attorneys.' },
+    { label: 'Personal Injury Lawyers', href: '/industries/personal-injury-lawyers', desc: 'AI Google Ads campaigns for personal injury and accident attorneys.' },
+    { label: 'Criminal Defense Lawyers', href: '/industries/criminal-defense-lawyers', desc: 'AI Google Ads campaigns for criminal defense attorneys.' },
+  ],
+
+  finalCtaTitle: 'Ready to Generate Your Employment Lawyer Google Ads Campaign?',
+  finalCtaSubtitle:
+    'Generate keywords, campaign settings, responsive search ads, descriptions, landing page recommendations and campaign optimization using AI.',
+};
