@@ -9,10 +9,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://growthshift.com'),
+  metadataBase: new URL('https://growthshiftapp.vercel.app'),
+
   title: {
     default: 'GrowthShift — AI Google Ads Automation Platform',
     template: '%s | GrowthShift',
+  },
+
+  verification: {
+    google: 'xKJRjzV4hjHDWONkfxglVMtigMIfbN-cGvqeBuMDW0s',
   },
   description:
     'GrowthShift is the AI-powered Google Ads automation platform that builds, optimizes, and manages your campaigns automatically. Lower CPA, more conversions, less manual work.',
