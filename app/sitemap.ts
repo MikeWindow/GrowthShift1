@@ -1,119 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+import { MetadataRoute } from "next";
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+const BASE_URL = "https://growthshiftapp.vercel.app";
 
-  <!-- Commercial Pages -->
+const pages = [
+  "/",
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/google-ads-automation</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  // Commercial Pages
+  "/google-ads-automation",
+  "/ai-google-ads-management",
+  "/google-ads-optimization-software",
+  "/ppc-management-software",
+  "/ppc-reporting-software",
+  "/google-ads-ai-manager",
+  "/google-ads-agency-alternative",
+  "/google-ads-audit",
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/ai-google-ads-management</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  // Free Tool
+  "/tools/negative-keyword-generator",
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/google-ads-optimization-software</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  // Industry Pages
+  "/industries/roofing",
+  "/industries/hvac",
+  "/industries/plumbers",
+  "/industries/electricians",
+  "/industries/appliance-repair",
+  "/industries/google-ads-for-pest-control",
+  "/industries/google-ads-for-garage-door",
+  "/industries/google-ads-for-garage-door-repair",
+  "/industries/google-ads-for-junk-removal",
+  "/industries/google-ads-for-water-damage-restoration",
+  "/industries/google-ads-for-cleaning-services",
+  "/industries/google-ads-for-carpet-cleaning",
+  "/industries/google-ads-for-window-cleaning",
+  "/industries/google-ads-for-locksmiths",
+  "/industries/google-ads-for-flooring",
+  "/industries/google-ads-for-landscaping",
+  "/industries/google-ads-for-lawyers",
+  "/industries/google-ads-for-personal-injury-lawyers",
+  "/industries/google-ads-for-car-accident-lawyers",
+  "/industries/google-ads-for-truck-accident-lawyers",
+  "/industries/google-ads-for-motorcycle-accident-lawyers",
+  "/industries/google-ads-for-dui-lawyers",
+  "/industries/google-ads-for-criminal-defense-lawyers",
+  "/industries/google-ads-for-divorce-lawyers",
+  "/industries/google-ads-for-family-lawyers",
+  "/industries/google-ads-for-bankruptcy-lawyers",
+  "/industries/google-ads-for-estate-planning-lawyers",
+  "/industries/google-ads-for-immigration-lawyers",
+  "/industries/google-ads-for-medical-malpractice-lawyers",
+  "/industries/google-ads-for-employment-lawyers",
+  "/industries/google-ads-for-workers-compensation-lawyers",
+  "/industries/google-ads-for-social-security-disability-lawyers",
+  "/industries/google-ads-for-business-lawyers",
+  "/industries/google-ads-for-real-estate-lawyers",
+  "/industries/google-ads-for-tax-lawyers",
+  "/industries/google-ads-for-probate-lawyers",
+];
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/ppc-management-software</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date("2026-07-15");
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/ppc-reporting-software</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  return pages.map((page) => ({
+    url: `${BASE_URL}${page}`,
+    lastModified: now,
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/google-ads-ai-manager</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    changeFrequency:
+      page === "/"
+        ? "daily"
+        : "weekly",
 
-  <url>
-    <loc>https://growthshiftapp.vercel.app/google-ads-agency-alternative</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://growthshiftapp.vercel.app/google-ads-audit</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Free Tools -->
-
-  <url>
-    <loc>https://growthshiftapp.vercel.app/tools/negative-keyword-generator</loc>
-    <lastmod>2026-07-15T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Industry Pages -->
-
-  <url><loc>https://growthshiftapp.vercel.app/industries/roofing</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/hvac</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/plumbers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/electricians</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/appliance-repair</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-pest-control</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-garage-door</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-garage-door-repair</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-junk-removal</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-water-damage-restoration</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-cleaning-services</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-carpet-cleaning</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-window-cleaning</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-locksmiths</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-flooring</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-landscaping</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-personal-injury-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-car-accident-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-truck-accident-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-motorcycle-accident-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-dui-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-criminal-defense-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-divorce-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-family-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-bankruptcy-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-estate-planning-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-immigration-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-medical-malpractice-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-employment-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-workers-compensation-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-social-security-disability-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-business-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-real-estate-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-tax-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://growthshiftapp.vercel.app/industries/google-ads-for-probate-lawyers</loc><lastmod>2026-07-15T00:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-
-</urlset>
+    priority:
+      page === "/"
+        ? 1.0
+        : page === "/google-ads-automation"
+        ? 0.9
+        : page.startsWith("/industries/")
+        ? 0.7
+        : 0.8,
+  }));
+}
