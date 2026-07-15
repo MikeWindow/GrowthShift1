@@ -2,6 +2,10 @@ import { MetadataRoute } from "next";
 
 const BASE_URL = "https://growthshiftapp.vercel.app";
 
+// Next.js ko force karein ki is route ko build/request time par statically output clean rakhe aur fast serve kare.
+export const dynamic = "force-static"; 
+export const revalidate = 86400; // 24 ghante ke liye server cache
+
 const pages = [
   "/",
 
@@ -58,7 +62,7 @@ const pages = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const now = new Date().toISOString(); // Strict W3C format string banayi
 
   return pages.map((page) => ({
     url: `${BASE_URL}${page}`,
