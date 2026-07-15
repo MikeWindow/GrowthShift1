@@ -58,20 +58,15 @@ const pages = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date("2026-07-15");
+  const now = new Date();
 
   return pages.map((page) => ({
     url: `${BASE_URL}${page}`,
     lastModified: now,
-
-    changeFrequency:
-      page === "/"
-        ? "daily"
-        : "weekly",
-
+    changeFrequency: page === "/" ? "daily" : "weekly",
     priority:
       page === "/"
-        ? 1.0
+        ? 1
         : page === "/google-ads-automation"
         ? 0.9
         : page.startsWith("/industries/")
