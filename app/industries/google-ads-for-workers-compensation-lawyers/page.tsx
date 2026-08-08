@@ -7,7 +7,11 @@ import { workersCompensationLawyersData } from '@/config/industries/workers-comp
 export const metadata: Metadata = {
   title: workersCompensationLawyersData.title,
   description: workersCompensationLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-workers-compensation-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-workers-compensation-lawyers',
     title: workersCompensationLawyersData.title,
     description: workersCompensationLawyersData.metaDescription,
   },

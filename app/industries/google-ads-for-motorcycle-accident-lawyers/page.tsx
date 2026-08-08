@@ -7,7 +7,11 @@ import { motorcycleAccidentData } from '@/config/industries/motorcycle-accident-
 export const metadata: Metadata = {
   title: motorcycleAccidentData.title,
   description: motorcycleAccidentData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-motorcycle-accident-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-motorcycle-accident-lawyers',
     title: motorcycleAccidentData.title,
     description: motorcycleAccidentData.metaDescription,
   },

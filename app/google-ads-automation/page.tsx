@@ -7,9 +7,13 @@ import { googleAdsAutomationData } from '@/config/commercial/google-ads-automati
 export const metadata: Metadata = {
   title: googleAdsAutomationData.title,
   description: googleAdsAutomationData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/google-ads-automation',
+  },
   openGraph: {
     title: googleAdsAutomationData.title,
     description: googleAdsAutomationData.metaDescription,
+    url: 'https://growthshiftapp.vercel.app/google-ads-automation',
   },
 };
 

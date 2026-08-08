@@ -7,7 +7,11 @@ import { socialSecurityDisabilityLawyersData } from '@/config/industries/social-
 export const metadata: Metadata = {
   title: socialSecurityDisabilityLawyersData.title,
   description: socialSecurityDisabilityLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-social-security-disability-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-social-security-disability-lawyers',
     title: socialSecurityDisabilityLawyersData.title,
     description: socialSecurityDisabilityLawyersData.metaDescription,
   },

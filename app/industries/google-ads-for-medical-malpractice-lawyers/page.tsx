@@ -7,7 +7,11 @@ import { medicalMalpracticeLawyersData } from '@/config/industries/medical-malpr
 export const metadata: Metadata = {
   title: medicalMalpracticeLawyersData.title,
   description: medicalMalpracticeLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-medical-malpractice-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-medical-malpractice-lawyers',
     title: medicalMalpracticeLawyersData.title,
     description: medicalMalpracticeLawyersData.metaDescription,
   },

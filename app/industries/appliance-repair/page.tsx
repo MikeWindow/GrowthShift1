@@ -7,7 +7,11 @@ import { applianceRepairData } from '@/config/industries/appliance-repair';
 export const metadata: Metadata = {
   title: applianceRepairData.title,
   description: applianceRepairData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/appliance-repair',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/appliance-repair',
     title: applianceRepairData.title,
     description: applianceRepairData.metaDescription,
   },

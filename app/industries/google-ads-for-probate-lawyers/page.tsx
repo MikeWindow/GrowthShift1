@@ -7,7 +7,11 @@ import { probateLawyersData } from '@/config/industries/probate-lawyers';
 export const metadata: Metadata = {
   title: probateLawyersData.title,
   description: probateLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-probate-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-probate-lawyers',
     title: probateLawyersData.title,
     description: probateLawyersData.metaDescription,
   },

@@ -7,7 +7,11 @@ import { pestControlData } from '@/config/industries/pest-control';
 export const metadata: Metadata = {
   title: pestControlData.title,
   description: pestControlData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-pest-control',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-pest-control',
     title: pestControlData.title,
     description: pestControlData.metaDescription,
   },

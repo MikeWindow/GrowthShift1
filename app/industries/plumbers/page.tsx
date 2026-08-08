@@ -7,7 +7,11 @@ import { plumbersData } from '@/config/industries/plumbers';
 export const metadata: Metadata = {
   title: plumbersData.title,
   description: plumbersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/plumbers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/plumbers',
     title: plumbersData.title,
     description: plumbersData.metaDescription,
   },

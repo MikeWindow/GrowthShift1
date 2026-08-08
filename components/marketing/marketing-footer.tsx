@@ -9,6 +9,7 @@ const INDUSTRY_LINKS = [
   { label: 'Appliance Repair', href: '/industries/appliance-repair' },
   { label: 'Pest Control', href: '/industries/google-ads-for-pest-control' },
   { label: 'Garage Door', href: '/industries/google-ads-for-garage-door' },
+  { label: 'Garage Door Repair', href: '/industries/google-ads-for-garage-door-repair' },
   { label: 'Junk Removal', href: '/industries/google-ads-for-junk-removal' },
   { label: 'Water Damage', href: '/industries/google-ads-for-water-damage-restoration' },
   { label: 'Cleaning Services', href: '/industries/google-ads-for-cleaning-services' },
@@ -20,6 +21,8 @@ const INDUSTRY_LINKS = [
   { label: 'Lawyers', href: '/industries/google-ads-for-lawyers' },
   { label: 'Personal Injury', href: '/industries/google-ads-for-personal-injury-lawyers' },
   { label: 'Car Accident', href: '/industries/google-ads-for-car-accident-lawyers' },
+  { label: 'Truck Accident', href: '/industries/google-ads-for-truck-accident-lawyers' },
+  { label: 'Motorcycle Accident', href: '/industries/google-ads-for-motorcycle-accident-lawyers' },
   { label: 'DUI Lawyers', href: '/industries/google-ads-for-dui-lawyers' },
   { label: 'Criminal Defense', href: '/industries/google-ads-for-criminal-defense-lawyers' },
   { label: 'Divorce Lawyers', href: '/industries/google-ads-for-divorce-lawyers' },
@@ -65,30 +68,13 @@ const COLUMNS = [
     title: 'Industries',
     links: INDUSTRY_LINKS,
   },
-  {
-    title: 'Resources',
-    links: [
-      { label: 'Blog', href: '#' },
-      { label: 'Documentation', href: '#' },
-      { label: 'Pricing', href: '#' },
-      { label: 'Contact', href: '#' },
-    ],
-  },
-  {
-    title: 'Company',
-    links: [
-      { label: 'About', href: '#' },
-      { label: 'Privacy', href: '#' },
-      { label: 'Terms', href: '#' },
-    ],
-  },
 ];
 
 export function MarketingFooter() {
   return (
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">

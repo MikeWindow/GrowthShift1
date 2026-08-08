@@ -7,7 +7,11 @@ import { locksmithsData } from '@/config/industries/locksmiths';
 export const metadata: Metadata = {
   title: locksmithsData.title,
   description: locksmithsData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-locksmiths',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-locksmiths',
     title: locksmithsData.title,
     description: locksmithsData.metaDescription,
   },

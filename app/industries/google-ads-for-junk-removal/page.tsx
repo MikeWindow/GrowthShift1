@@ -7,7 +7,11 @@ import { junkRemovalData } from '@/config/industries/junk-removal';
 export const metadata: Metadata = {
   title: junkRemovalData.title,
   description: junkRemovalData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-junk-removal',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-junk-removal',
     title: junkRemovalData.title,
     description: junkRemovalData.metaDescription,
   },

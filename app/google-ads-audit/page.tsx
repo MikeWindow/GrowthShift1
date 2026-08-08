@@ -7,7 +7,11 @@ import { googleAdsAuditData } from '@/config/commercial/google-ads-audit';
 export const metadata: Metadata = {
   title: googleAdsAuditData.title,
   description: googleAdsAuditData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/google-ads-audit',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/google-ads-audit',
     title: googleAdsAuditData.title,
     description: googleAdsAuditData.metaDescription,
   },

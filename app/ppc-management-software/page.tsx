@@ -7,7 +7,11 @@ import { ppcManagementSoftwareData } from '@/config/commercial/ppc-management-so
 export const metadata: Metadata = {
   title: ppcManagementSoftwareData.title,
   description: ppcManagementSoftwareData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/ppc-management-software',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/ppc-management-software',
     title: ppcManagementSoftwareData.title,
     description: ppcManagementSoftwareData.metaDescription,
   },

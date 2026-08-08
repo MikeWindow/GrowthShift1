@@ -7,7 +7,11 @@ import { garageDoorData } from '@/config/industries/garage-door';
 export const metadata: Metadata = {
   title: garageDoorData.title,
   description: garageDoorData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-garage-door',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-garage-door',
     title: garageDoorData.title,
     description: garageDoorData.metaDescription,
   },

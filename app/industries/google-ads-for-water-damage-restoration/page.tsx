@@ -7,7 +7,11 @@ import { waterDamageData } from '@/config/industries/water-damage-restoration';
 export const metadata: Metadata = {
   title: waterDamageData.title,
   description: waterDamageData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-water-damage-restoration',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-water-damage-restoration',
     title: waterDamageData.title,
     description: waterDamageData.metaDescription,
   },

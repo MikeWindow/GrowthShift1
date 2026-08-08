@@ -12,10 +12,14 @@ export const metadata: Metadata = {
   title: 'Free Negative Keyword Generator for Google Ads | 250+ Ready-to-Use Keywords',
   description:
     'Generate a free Google Ads negative keywords list in seconds. Build broad, phrase, or exact match negative keywords by category, copy or download your list, and reduce wasted ad spend with our AI-powered negative keyword generator.',
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/tools/negative-keyword-generator',
+  },
   openGraph: {
     title: 'Free Negative Keyword Generator for Google Ads | 250+ Ready-to-Use Keywords',
     description:
       'Generate a free Google Ads negative keywords list in seconds. Build broad, phrase, or exact match negative keywords by category, copy or download your list, and reduce wasted ad spend with our AI-powered negative keyword generator.',
+    url: 'https://growthshiftapp.vercel.app/tools/negative-keyword-generator',
   },
 };
 

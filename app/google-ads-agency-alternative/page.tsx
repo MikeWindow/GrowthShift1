@@ -7,7 +7,11 @@ import { googleAdsAgencyAlternativeData } from '@/config/commercial/google-ads-a
 export const metadata: Metadata = {
   title: googleAdsAgencyAlternativeData.title,
   description: googleAdsAgencyAlternativeData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/google-ads-agency-alternative',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/google-ads-agency-alternative',
     title: googleAdsAgencyAlternativeData.title,
     description: googleAdsAgencyAlternativeData.metaDescription,
   },

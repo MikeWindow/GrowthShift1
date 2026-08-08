@@ -7,7 +7,11 @@ import { carAccidentData } from '@/config/industries/car-accident-lawyers';
 export const metadata: Metadata = {
   title: carAccidentData.title,
   description: carAccidentData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-car-accident-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-car-accident-lawyers',
     title: carAccidentData.title,
     description: carAccidentData.metaDescription,
   },

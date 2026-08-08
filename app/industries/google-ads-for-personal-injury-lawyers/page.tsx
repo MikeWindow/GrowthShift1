@@ -7,7 +7,11 @@ import { personalInjuryData } from '@/config/industries/personal-injury-lawyers'
 export const metadata: Metadata = {
   title: personalInjuryData.title,
   description: personalInjuryData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-personal-injury-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-personal-injury-lawyers',
     title: personalInjuryData.title,
     description: personalInjuryData.metaDescription,
   },

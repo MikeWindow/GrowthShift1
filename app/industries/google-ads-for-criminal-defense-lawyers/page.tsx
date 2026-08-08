@@ -7,7 +7,11 @@ import { criminalDefenseData } from '@/config/industries/criminal-defense-lawyer
 export const metadata: Metadata = {
   title: criminalDefenseData.title,
   description: criminalDefenseData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-criminal-defense-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-criminal-defense-lawyers',
     title: criminalDefenseData.title,
     description: criminalDefenseData.metaDescription,
   },

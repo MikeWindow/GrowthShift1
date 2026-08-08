@@ -7,7 +7,11 @@ import { googleAdsOptimizationSoftwareData } from '@/config/commercial/google-ad
 export const metadata: Metadata = {
   title: googleAdsOptimizationSoftwareData.title,
   description: googleAdsOptimizationSoftwareData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/google-ads-optimization-software',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/google-ads-optimization-software',
     title: googleAdsOptimizationSoftwareData.title,
     description: googleAdsOptimizationSoftwareData.metaDescription,
   },

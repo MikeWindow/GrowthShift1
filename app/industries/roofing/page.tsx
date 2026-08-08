@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   title: 'AI Google Ads Builder for Roofing Companies | Generate Roofing Search Campaigns',
   description:
     'Build high-converting Google Ads campaigns for roofing companies using AI. Generate keywords, headlines, descriptions, campaign settings and landing page recommendations in minutes.',
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/roofing',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/roofing',
     title: 'AI Google Ads Builder for Roofing Companies | Generate Roofing Search Campaigns',
     description:
       'Build high-converting Google Ads campaigns for roofing companies using AI. Generate keywords, headlines, descriptions, campaign settings and landing page recommendations in minutes.',

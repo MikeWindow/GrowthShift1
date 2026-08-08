@@ -7,7 +7,11 @@ import { landscapingData } from '@/config/industries/landscaping';
 export const metadata: Metadata = {
   title: landscapingData.title,
   description: landscapingData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-landscaping',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-landscaping',
     title: landscapingData.title,
     description: landscapingData.metaDescription,
   },

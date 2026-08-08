@@ -7,7 +7,11 @@ import { immigrationLawyersData } from '@/config/industries/immigration-lawyers'
 export const metadata: Metadata = {
   title: immigrationLawyersData.title,
   description: immigrationLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-immigration-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-immigration-lawyers',
     title: immigrationLawyersData.title,
     description: immigrationLawyersData.metaDescription,
   },

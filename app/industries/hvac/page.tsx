@@ -7,7 +7,11 @@ import { hvacData } from '@/config/industries/hvac';
 export const metadata: Metadata = {
   title: hvacData.title,
   description: hvacData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/hvac',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/hvac',
     title: hvacData.title,
     description: hvacData.metaDescription,
   },

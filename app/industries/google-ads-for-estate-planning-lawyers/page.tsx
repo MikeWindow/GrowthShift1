@@ -7,7 +7,11 @@ import { estatePlanningLawyersData } from '@/config/industries/estate-planning-l
 export const metadata: Metadata = {
   title: estatePlanningLawyersData.title,
   description: estatePlanningLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-estate-planning-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-estate-planning-lawyers',
     title: estatePlanningLawyersData.title,
     description: estatePlanningLawyersData.metaDescription,
   },

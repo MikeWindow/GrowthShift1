@@ -7,7 +7,11 @@ import { flooringData } from '@/config/industries/flooring';
 export const metadata: Metadata = {
   title: flooringData.title,
   description: flooringData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-flooring',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-flooring',
     title: flooringData.title,
     description: flooringData.metaDescription,
   },

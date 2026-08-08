@@ -7,7 +7,11 @@ import { electriciansData } from '@/config/industries/electricians';
 export const metadata: Metadata = {
   title: electriciansData.title,
   description: electriciansData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/electricians',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/electricians',
     title: electriciansData.title,
     description: electriciansData.metaDescription,
   },

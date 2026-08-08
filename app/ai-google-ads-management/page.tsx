@@ -7,7 +7,11 @@ import { aiGoogleAdsManagementData } from '@/config/commercial/ai-google-ads-man
 export const metadata: Metadata = {
   title: aiGoogleAdsManagementData.title,
   description: aiGoogleAdsManagementData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/ai-google-ads-management',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/ai-google-ads-management',
     title: aiGoogleAdsManagementData.title,
     description: aiGoogleAdsManagementData.metaDescription,
   },

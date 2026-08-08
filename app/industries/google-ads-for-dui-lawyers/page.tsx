@@ -7,7 +7,11 @@ import { duiLawyersData } from '@/config/industries/dui-lawyers';
 export const metadata: Metadata = {
   title: duiLawyersData.title,
   description: duiLawyersData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-dui-lawyers',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-dui-lawyers',
     title: duiLawyersData.title,
     description: duiLawyersData.metaDescription,
   },

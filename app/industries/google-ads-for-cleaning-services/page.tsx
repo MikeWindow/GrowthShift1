@@ -7,7 +7,11 @@ import { cleaningServicesData } from '@/config/industries/cleaning-services';
 export const metadata: Metadata = {
   title: cleaningServicesData.title,
   description: cleaningServicesData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-cleaning-services',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-cleaning-services',
     title: cleaningServicesData.title,
     description: cleaningServicesData.metaDescription,
   },

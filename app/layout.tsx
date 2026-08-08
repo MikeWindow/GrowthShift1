@@ -69,6 +69,19 @@ export const metadata: Metadata = {
   },
 
   manifest: '/manifest.webmanifest',
+
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app',
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({

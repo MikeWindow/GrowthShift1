@@ -7,7 +7,11 @@ import { windowCleaningData } from '@/config/industries/window-cleaning';
 export const metadata: Metadata = {
   title: windowCleaningData.title,
   description: windowCleaningData.metaDescription,
+  alternates: {
+    canonical: 'https://growthshiftapp.vercel.app/industries/google-ads-for-window-cleaning',
+  },
   openGraph: {
+    url: 'https://growthshiftapp.vercel.app/industries/google-ads-for-window-cleaning',
     title: windowCleaningData.title,
     description: windowCleaningData.metaDescription,
   },
