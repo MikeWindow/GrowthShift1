@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import { ArrowRight, Play, Sparkles } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Sparkles } from 'lucide-react';
+import { WhatsAppCta } from '@/components/marketing/whatsapp-cta';
 
 export function RoofingHero() {
   return (
@@ -22,19 +21,15 @@ export function RoofingHero() {
             extensions and landing page recommendations.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <Button asChild size="lg" className="h-12 px-7 text-sm gap-2">
-              <Link href="/analyze-business">
-                Start Building
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="h-12 px-7 text-sm gap-2">
-              <Link href="#how-it-works">
-                <Play className="h-4 w-4" />
-                See Live Demo
-              </Link>
-            </Button>
+            <WhatsAppCta
+              pageSlug="/industries/roofing"
+              pageTitle="AI Google Ads Builder for Roofing Companies"
+              industry="Roofing Companies"
+            />
           </div>
+          <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
+            Get a personalized Google Ads Audit Report with actionable recommendations delivered on WhatsApp.
+          </p>
         </div>
       </div>
     </section>

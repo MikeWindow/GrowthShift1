@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { ArrowRight, Play, Sparkles, CheckCircle2, Ban, Search } from 'lucide-react';
+import { ArrowRight, Sparkles, CheckCircle2, Ban, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { AiInsight } from '@/components/marketing/roofing/ai-insight';
+import { WhatsAppCta } from '@/components/marketing/whatsapp-cta';
 import { getIcon } from '@/lib/icon-map';
 import type { IndustryData } from '@/types/industry';
 
@@ -91,13 +92,15 @@ export function IndustryPage({ data }: { data: IndustryData }) {
               {data.heroSubtitle}
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Button asChild size="lg" className="h-12 px-7 text-sm gap-2">
-                <Link href="/analyze-business">Start Building<ArrowRight className="h-4 w-4" /></Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="h-12 px-7 text-sm gap-2">
-                <Link href="#how-it-works"><Play className="h-4 w-4" />See Live Demo</Link>
-              </Button>
+              <WhatsAppCta
+                pageSlug={`/industries/${data.slug}`}
+                pageTitle={data.title}
+                industry={data.industry}
+              />
             </div>
+            <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
+              Get a personalized Google Ads Audit Report with actionable recommendations delivered on WhatsApp.
+            </p>
           </div>
         </div>
       </section>

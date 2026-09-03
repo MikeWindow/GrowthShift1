@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, Play, Sparkles, Ban, Copy, CheckCircle2, Key, DollarSign, Gauge, TrendingUp, Shield, Search, Briefcase, BookOpen, Percent, Warehouse, Lock, Eye, HelpCircle, FileText, Download, Tag, Settings, Layers, RefreshCw, Bot, BarChart3, Target, Building2, ShoppingCart, MousePointerClick } from 'lucide-react';
+import { ArrowRight, Sparkles, Ban, Copy, CheckCircle2, Key, DollarSign, Gauge, TrendingUp, Shield, Search, Briefcase, BookOpen, Percent, Warehouse, Lock, Eye, HelpCircle, FileText, Download, Tag, Settings, Layers, RefreshCw, Bot, BarChart3, Target, Building2, ShoppingCart, MousePointerClick } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { MarketingHeader } from '@/components/marketing/marketing-header';
 import { MarketingFooter } from '@/components/marketing/marketing-footer';
 import { NegativeKeywordGenerator } from '@/components/marketing/negative-keyword-generator';
 import { AiInsight } from '@/components/marketing/roofing/ai-insight';
+import { WhatsAppCta } from '@/components/marketing/whatsapp-cta';
 
 export const metadata: Metadata = {
   title: 'Free Negative Keyword Generator for Google Ads | 250+ Ready-to-Use Keywords',
@@ -144,13 +145,17 @@ export default function Page() {
                 Build a complete Google Ads negative keywords list in seconds. Select categories, choose Broad, Phrase, or Exact match, instantly generate a formatted list, then copy or download it to reduce wasted clicks, improve search intent, and maximize your Google Ads performance.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-                <Button asChild size="lg" className="h-12 px-7 text-sm gap-2">
-                  <Link href="#tool">Generate My List<ArrowRight className="h-4 w-4" /></Link>
-                </Button>
+                <WhatsAppCta
+                  pageSlug="/tools/negative-keyword-generator"
+                  pageTitle="Free Negative Keyword Generator for Google Ads"
+                />
                 <Button asChild variant="outline" size="lg" className="h-12 px-7 text-sm gap-2">
-                  <Link href="#how-to-use"><Play className="h-4 w-4" />See Live Demo</Link>
+                  <Link href="#tool"><ArrowRight className="h-4 w-4" />Try the Tool</Link>
                 </Button>
               </div>
+              <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
+                Get a personalized Google Ads Audit Report with actionable recommendations delivered on WhatsApp.
+              </p>
             </div>
           </div>
         </section>
@@ -346,7 +351,7 @@ export default function Page() {
                 <Link href="#tool">Generate My List<ArrowRight className="h-4 w-4" /></Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="h-12 px-8 text-sm gap-2">
-                <Link href="/google-ads-automation"><Play className="h-4 w-4" />Explore Google Ads Automation</Link>
+                <Link href="/google-ads-automation"><ArrowRight className="h-4 w-4" />Explore Google Ads Automation</Link>
               </Button>
             </div>
           </div>

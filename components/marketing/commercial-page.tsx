@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { ArrowRight, Play, Sparkles, CheckCircle2, ChevronRight } from 'lucide-react';
+import { ArrowRight, Sparkles, CheckCircle2, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { AiInsight } from '@/components/marketing/roofing/ai-insight';
+import { WhatsAppCta } from '@/components/marketing/whatsapp-cta';
 import { getIcon } from '@/lib/icon-map';
 import type {
   CommercialData,
@@ -238,13 +239,14 @@ export function CommercialPage({ data }: { data: CommercialData }) {
               {data.heroSubtitle}
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Button asChild size="lg" className="h-12 px-7 text-sm gap-2">
-                <Link href="/analyze-business">{data.primaryCta}<ArrowRight className="h-4 w-4" /></Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="h-12 px-7 text-sm gap-2">
-                <Link href="#how-it-works"><Play className="h-4 w-4" />{data.secondaryCta}</Link>
-              </Button>
+              <WhatsAppCta
+                pageSlug={`/${data.slug}`}
+                pageTitle={data.title}
+              />
             </div>
+            <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
+              Get a personalized Google Ads Audit Report with actionable recommendations delivered on WhatsApp.
+            </p>
           </div>
         </div>
       </section>
@@ -455,7 +457,7 @@ export function CommercialPage({ data }: { data: CommercialData }) {
               <Link href="/analyze-business">{data.finalCtaSection.primaryCta}<ArrowRight className="h-4 w-4" /></Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="h-12 px-8 text-sm gap-2">
-              <Link href="#how-it-works"><Play className="h-4 w-4" />{data.finalCtaSection.secondaryCta}</Link>
+              <Link href="#how-it-works"><ArrowRight className="h-4 w-4" />{data.finalCtaSection.secondaryCta}</Link>
             </Button>
           </div>
         </div>

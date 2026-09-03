@@ -68,13 +68,23 @@ const COLUMNS = [
     title: 'Industries',
     links: INDUSTRY_LINKS,
   },
+  {
+    title: 'Company',
+    links: [
+      { label: 'About', href: '/' },
+      { label: 'Contact', href: 'https://wa.me/message/6PBMERIVYTKFI1' },
+      { label: 'Privacy Policy', href: '/privacy-policy' },
+      { label: 'Terms & Conditions', href: '/terms-and-conditions' },
+      { label: 'Disclaimer', href: '/disclaimer' },
+    ],
+  },
 ];
 
 export function MarketingFooter() {
   return (
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">

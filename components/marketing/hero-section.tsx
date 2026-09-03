@@ -1,4 +1,5 @@
 import { HeroAnalyzer } from '@/components/marketing/hero-analyzer';
+import { WhatsAppCta } from '@/components/marketing/whatsapp-cta';
 
 export function HeroSection() {
   return (
@@ -22,7 +23,17 @@ export function HeroSection() {
               Paste your website. Our AI extracts your services, locations, and trust signals —
               then builds a complete Search campaign ready to export.
             </p>
-            <div className="mt-7 flex items-center gap-5">
+            <div className="mt-7">
+              <WhatsAppCta
+                pageSlug="/"
+                pageTitle="GrowthShift — AI Google Ads Automation Platform"
+                size="lg"
+              />
+            </div>
+            <p className="mt-3 text-sm text-muted-foreground">
+              Get a personalized Google Ads Audit Report with actionable recommendations delivered on WhatsApp.
+            </p>
+            <div className="mt-5 flex items-center gap-5">
               <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
                 No credit card needed
