@@ -178,8 +178,25 @@ function DashboardPreview({ data }: { data: CommercialData }) {
 }
 
 function FaqList({ faqs }: { faqs: { q: string; a: string }[] }) {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <div className="mx-auto max-w-3xl space-y-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {faqs.map((faq) => (
         <div key={faq.q} className="rounded-2xl border border-border bg-card p-6 shadow-sm">
           <h3 className="text-base font-semibold text-foreground">{faq.q}</h3>
@@ -191,8 +208,21 @@ function FaqList({ faqs }: { faqs: { q: string; a: string }[] }) {
 }
 
 export function CommercialPage({ data }: { data: CommercialData }) {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://growthshiftapp.vercel.app/' },
+      { '@type': 'ListItem', position: 2, name: data.title, item: `https://growthshiftapp.vercel.app/${data.slug}` },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-border/60">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">

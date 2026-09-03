@@ -60,8 +60,22 @@ function Row({ label, value }: { label: string; value: string }) {
 }
 
 export function IndustryPage({ data }: { data: IndustryData }) {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://growthshiftapp.vercel.app/' },
+      { '@type': 'ListItem', position: 2, name: 'Industries', item: 'https://growthshiftapp.vercel.app/industries/roofing' },
+      { '@type': 'ListItem', position: 3, name: data.h1 },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-border/60">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
@@ -409,8 +423,25 @@ import {
 import { ChevronRight } from 'lucide-react';
 
 function FaqSection({ data }: { data: IndustryData }) {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: data.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <section className="border-b border-border/60 py-16 lg:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mb-10 max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">FAQ</span>

@@ -7,7 +7,13 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import type { Template } from '@/types';
 
-export const metadata: Metadata = { title: 'Templates' };
+export const metadata: Metadata = {
+  title: 'Templates',
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 const templates: Template[] = [
   { id: '1', name: 'Search Ads Pro', description: 'High-converting search campaign structure with SKAG methodology and negative keyword lists.', category: 'Search', usageCount: 342, tags: ['Search', 'SKAG', 'High-intent'] },

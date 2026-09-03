@@ -4,17 +4,17 @@ import { Button } from '@/components/ui/button';
 
 const INDUSTRIES = [
   { label: 'Roofing', href: '/industries/roofing' },
-  { label: 'HVAC', href: '#' },
-  { label: 'Plumbers', href: '#' },
-  { label: 'Electricians', href: '#' },
-  { label: 'Lawyers', href: '#' },
-  { label: 'Dentists', href: '#' },
-  { label: 'Cleaning Services', href: '#' },
-  { label: 'Pest Control', href: '#' },
-  { label: 'Appliance Repair', href: '#' },
-  { label: 'Garage Door', href: '#' },
-  { label: 'Junk Removal', href: '#' },
-  { label: 'Flooring', href: '#' },
+  { label: 'HVAC', href: '/industries/hvac' },
+  { label: 'Plumbers', href: '/industries/plumbers' },
+  { label: 'Electricians', href: '/industries/electricians' },
+  { label: 'Lawyers', href: '/industries/google-ads-for-lawyers' },
+  { label: 'Cleaning Services', href: '/industries/google-ads-for-cleaning-services' },
+  { label: 'Pest Control', href: '/industries/google-ads-for-pest-control' },
+  { label: 'Appliance Repair', href: '/industries/appliance-repair' },
+  { label: 'Garage Door', href: '/industries/google-ads-for-garage-door' },
+  { label: 'Junk Removal', href: '/industries/google-ads-for-junk-removal' },
+  { label: 'Flooring', href: '/industries/google-ads-for-flooring' },
+  { label: 'Landscaping', href: '/industries/google-ads-for-landscaping' },
 ];
 
 export function IndustriesSection() {
@@ -47,9 +47,11 @@ export function IndustriesSection() {
         </div>
 
         <div className="mt-8 flex justify-center">
-          <Button variant="outline" className="h-11 px-6 text-sm gap-1.5">
-            View All Industries
-            <ChevronRight className="h-4 w-4" />
+          <Button asChild variant="outline" className="h-11 px-6 text-sm gap-1.5">
+            <Link href="/industries/roofing">
+              View All Industries
+              <ChevronRight className="h-4 w-4" />
+            </Link>
           </Button>
         </div>
       </div>

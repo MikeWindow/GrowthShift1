@@ -11,7 +11,6 @@ export default function robots(): MetadataRoute.Robots {
           '/projects',
           '/settings',
           '/history',
-          '/templates',
           '/keywords',
           '/analyze-business',
           '/business-review',

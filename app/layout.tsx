@@ -58,9 +58,6 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'GrowthShift — AI Google Ads Automation Platform',
-    description:
-      'AI-powered Google Ads automation that builds, optimizes, and manages campaigns automatically.',
     images: ['/icon.svg'],
   },
 
@@ -71,7 +68,7 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
 
   alternates: {
-    canonical: 'https://growthshiftapp.vercel.app',
+    canonical: 'https://growthshiftapp.vercel.app/',
   },
 
   robots: {
